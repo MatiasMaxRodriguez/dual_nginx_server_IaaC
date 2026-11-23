@@ -1,0 +1,31 @@
+# Directorios locales de Terraform (proveedores y módulos descargados)
+**/.terraform/*
+
+# Archivos de estado (.tfstate) y respaldos
+*.tfstate
+*.tfstate.*
+
+# Archivos de bloqueo de estado en ejecución
+*.tfstate.lock.info
+
+# Registros de errores (crash logs)
+crash.log
+crash.*.log
+
+# Archivos de variables
+*.tfvars
+*.tfvars.json
+
+# Archivos de planes guardados
+*.tfplan
+tfplan
+
+# Archivos de configuración local y overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Configuración de la CLI de Terraform
+.terraformrc
+terraform.rc
