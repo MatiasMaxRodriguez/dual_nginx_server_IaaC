@@ -1,5 +1,7 @@
 # Directorios locales de Terraform (proveedores y módulos descargados)
 **/.terraform/*
+**/.terraform.lock.hcl
+.terraform.lock.hcl
 
 # Archivos de estado (.tfstate) y respaldos
 *.tfstate
@@ -29,3 +31,7 @@ override.tf.json
 # Configuración de la CLI de Terraform
 .terraformrc
 terraform.rc
+
+# Archivos de llaves SSH
+*.key
+*.key.pub
